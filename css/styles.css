@@ -1,0 +1,59 @@
+:root {
+  --main-taxt-color: #0e1240;
+  --orange-color: #cc6906;
+}
+
+body {
+  font-family: "Mitr", sans-serif;
+  font-size: 16px;
+
+  color: var(--main-taxt-color);
+}
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid indigo;
+}
+
+/* header */
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+}
+.button {
+  border-radius: 1px;
+  border: 0;
+
+  text-align: center;
+  cursor: pointer;
+  border-color: transparent;
+}
